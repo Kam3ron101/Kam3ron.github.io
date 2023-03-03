@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+img {
+    width: 5em;
+    height: auto;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #216088;
+    color: #7A7C80;
+
+}
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #7A7C80;
+    text-decoration: none;
+}
+/* section 1 */
+.section-1{
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* section 2 */
+.section-2{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a{
+    /* display: block; */
+    padding: 5px;
+    /* font-size: 1.2rem; */
+    padding-left: 0;
+    width: 100px;
+}
+
+.caption {
+    font-size: 0.7rem;
+}
+/* animations / utilities */
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+ul.book {
+    list-style: "📚   ";
+    list-style-position: outside;
+}
+
+ul.phone {
+    list-style: "📱   ";
+    list-style-position: outside;
+}
+
+ul.paper {
+    list-style: "⚡   ";
+    list-style-position: outside;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
+</style>
+
+<head>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\tkame\OneDrive\Desktop\ktlogo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="C:\Users\tkame\OneDrive\Desktop\ktlogo.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#060000">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Kameron Thompson</title>
+</head>
+
+
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <img src="C:\Users\tkame\OneDrive\Desktop\ktlogo.png" width="110" height="73"/>
+            <h2>Kameron Thompson</h2>
+            <p>Prince George's County, MD</p>
+            <a href="https://twitter.com/yooKam__"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/kameron-thompson/"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:tkameron53@yahoo.com"><i class="fas fa-envelope"></i></a>  
+
+        </div>
+        <div class="section-2">
+            <h2>About Me</h2>
+            <p>I am currently a senior at Towosn Univeristy graduting this spring 2023. My major is computer information systems with a track in systems.
+             I am currently knowledgeable in Java, python, html, CSS, Java Script, my SQL and R stduio all from my classes here at Towson. While obtaining knowledge in these skills I am also currently an intern and the 
+             Networking and Information Technolgy Resaerch and Development Program (NITRD) in Washington, DC.
+            </p>
+            
+            <h4>Towson University courses I have completed</h4>
+            <ul class="book">
+                <li>COSC 236 & 237: Intro to Computer Science 1 & 2 </li>
+                <li>CIS 328: Intro to Data analytics</li>
+                <li>CIS 377: Intro to Cyber Securtiy</li>
+                <li>COSC 336: Data Structures and Algorithm anaylsis</li>
+                <li>COSC 412: Software engineering </li>
+                <li>CIS 435: Human Computer Interaction</li>
+                <li>CIS 458: Organizational Database Management</li>
+                <li>COSC 484: Web Programming</li>
+            </ul>
+
+            <h2>Personal Projects</h2>
+            <ul class="phone">
+               <li>Rental vehicle app</li>
+                <li>Personal Website</a></u>
+            </ul>
+            
+            <h2>Personal Info</h2>
+            <ul class="paper">
+                <li><u><a href="Kameron_Thompson_Resume2.16.2023 (1).pdf">Resume</a></u></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
